@@ -1,0 +1,189 @@
+.prepareForYourTrip {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.groupIcon {
+  position: relative;
+  width: 65.39px;
+  height: 65.39px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.hotelDiv {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  font-family: Roboto;
+  color: #8e8e94;
+  text-align: left;
+  display: inline-block;
+}
+.hotelButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  background-color: #ff9b53;
+  width: 65.39px;
+  height: 65.39px;
+}
+.groupIcon1 {
+  position: absolute;
+  height: 47.93%;
+  width: 48.38%;
+  top: 26.03%;
+  right: 25.81%;
+  bottom: 26.04%;
+  left: 25.81%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.attractionsDiv {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  font-family: Roboto;
+  color: #8e8e94;
+  text-align: center;
+  display: inline-block;
+}
+.groupIcon2,
+.rectangleDiv1 {
+  width: 65.39px;
+  height: 65.39px;
+}
+.groupIcon2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  background-color: #fdbf00;
+}
+.vectorIcon {
+  position: absolute;
+  height: 48.43%;
+  width: 41.17%;
+  top: 26.51%;
+  right: 29.42%;
+  bottom: 25.06%;
+  left: 29.42%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.rectangleDiv2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  background-color: #4dabff;
+  width: 70px;
+  height: 65.39px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 40.15%;
+  width: 40.52%;
+  top: 29.63%;
+  right: 29.74%;
+  bottom: 30.22%;
+  left: 29.74%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.groupDiv2 {
+  position: relative;
+  width: 70px;
+  height: 65.39px;
+  flex-shrink: 0;
+}
+.taxiDiv {
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  font-family: Roboto;
+  color: #8e8e94;
+  text-align: center;
+  display: inline-block;
+  width: 32.12px;
+}
+.rectangleDiv3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  background-color: #79ca00;
+  width: 65.39px;
+  height: 65.39px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 35.6%;
+  width: 39.93%;
+  top: 32.2%;
+  right: 30.03%;
+  bottom: 32.2%;
+  left: 30.03%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.prepareMenuDiv,
+.tripMenusDiv {
+  display: flex;
+  align-items: flex-start;
+}
+.tripMenusDiv {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.prepareMenuDiv {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+  font-size: 18px;
+  color: #cecece;
+  font-family: Roboto;
+}
+@media screen and (max-width: 767px) {
+  .prepareMenuDiv {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+}
+@media screen and (max-width: 427px) {
+  .hotelButton {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    width: 33.33%;
+    text-align: center;
+  }
+  .tripMenusDiv {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+}
